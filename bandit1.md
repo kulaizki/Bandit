@@ -1,17 +1,8 @@
-find the password located in the readme file
+- find the password inside this file named `-`
+- we need to use `./` to indicate that it is a file inside the current directory
 ```bash
-ls
-```
-display readme
-```bash
-cat readme
-```
-copy the password, and use it to login for bandit1:
-```bash
-ssh bandit1@bandit.labs.overthewire.org -p 2220
-```
-
-bandit2 password: 
-```
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat ./-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 ```
