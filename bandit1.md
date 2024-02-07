@@ -11,5 +11,7 @@ copy the password, and use it to login for bandit1:
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 
-bandit2 password:
+bandit2 password: 
+```
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+```
