@@ -1,5 +1,5 @@
-In this level, we use `strings` to filter the printable strings in `data.txt` as the file contains
-lots of unreadable data. Then we use `grep` to find lines that contain multiple `=`.
+In this level, we use `strings` to filter the printable strings in `data.txt`, as the file contains lots of unreadable data. 
+Then, we use `grep` to find lines that contain multiple '=' signs.
 ```bash
 bandit9@bandit:~$ strings data.txt | grep ===
 x]T========== theG)"
