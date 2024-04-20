@@ -1,4 +1,4 @@
-key notes
+## key notes
 - `ls -la, cd, cat, touch `
 - `less`
 - `file `
