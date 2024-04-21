@@ -1,3 +1,5 @@
+# Bandit 10
+
 In this level, we use the command `base64` along with `-d` to `decrypt` the file which has base64 encoded data.
 ```bash
 bandit10@bandit:~$ cat data.txt
