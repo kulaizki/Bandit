@@ -1,4 +1,6 @@
-here we use `cd` to get into the `inhere` dir and use the `find` command to locate the hidden file inside the current dir
+# Bandit 3
+
+Here we use `cd` to get into the `inhere` dir and use the `find` command to locate the hidden file inside the current dir
 ```bash
 bandit3@bandit:~$ ls
 inhere
