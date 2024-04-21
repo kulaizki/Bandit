@@ -1,4 +1,6 @@
-we use the command `file` to show the filetypes of all (`*`) the files in this dir and determine the only text file
+# Bandit 4
+
+We use the command `file` to show the filetypes of all (`*`) the files in this dir and determine the only text file
 ```bash
 bandit4@bandit:~$ ls
 inhere
