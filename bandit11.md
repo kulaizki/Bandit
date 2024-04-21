@@ -1,4 +1,6 @@
-In this level, we're given a file where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
+# Bandit 11
+
+In this level, we're given a file where 13 positions have rotated all lowercase (a-z) and uppercase (A-Z) letters.
 This is more commonly known as the **Caesar Cipher**. 
 
 To solve this, we have to use the `tr` command to translate
