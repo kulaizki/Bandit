@@ -1,3 +1,5 @@
+# Bandit 1
+
 - find the password inside this file named `-`
 - we need to use `./` to indicate that it is a file inside the current directory
 ```bash
