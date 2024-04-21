@@ -1,6 +1,6 @@
 # Bandit 12
 
-In this level, data.txt is a hexdump file that has been repeatedly compressed.
+We are given a file named data.txt, which is a `hexdump` file that has been repeatedly compressed.
 
 With that, it would be a good idea to create a new directory wherein we can save our progress
 in decompressing the file multiple times.
@@ -11,9 +11,6 @@ bandit12@bandit:/tmp/123$ cd ~
 bandit12@bandit:~$ cp data.txt /tmp/123
 bandit12@bandit:~$ cd /tmp/123
 ```
-
-First, since it's a hexdump we used `xxd -r` to `reverse` the hexdump or convert it to binary.
-We save the converted file into `crack1.txt` so we can easily decompress it further.
 ```bash
 bandit12@bandit:/tmp/123$ ls
 data.txt
@@ -56,6 +53,11 @@ bandit12@bandit:/tmp/123$ cat data.txt
 00000230: 003c a584 d4c1 61ef eb02 3f65 3a54 a3a2  .<....a...?e:T..
 00000240: a565 c154 34c2 b162 d206 1ff8 bb92 29c2  .e.T4..b......).
 00000250: 8482 40d9 9010 b3a9 e478 3d02 0000       ..@......x=...
+```
+
+First, since it's a hexdump we used `xxd -r` to `reverse` the hexdump or convert it to binary.
+We save the converted file into `crack1.txt` so we can easily decompress it further.
+```bash
 bandit12@bandit:/tmp/123$ xxd -r data.txt compressed_data
 bandit12@bandit:/tmp/123$ ls
 compressed_data  data.txt
