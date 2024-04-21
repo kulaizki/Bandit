@@ -1,3 +1,5 @@
+# Bandit 2
+
 we use double quotes ("") to support spaces in our filename
 ```bash
 bandit2@bandit:~$ ls
