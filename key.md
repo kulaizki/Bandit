@@ -1,11 +1,11 @@
-## key notes
+# Key Notes
 - `ls -la, cd, cat, touch `
 - `less`
 - `file `
 - `grep`
 - `uniq -u`
 - `find /path -name filename 2>/dev/null`
-- `tr 'A-Za-z' 'N-ZA-Mn-za-m'
+- `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
 - `base64 -d`
 - `strings filename`
 - `sort filename | uniq -u`
@@ -17,14 +17,14 @@
 - `nc ip port`
 - `ssh-add privatekey`
 - `ssh -i sshkey.private user@remote -p port`
-- `cat filename | nc remote_server_ip port
-- `echo filename | nc remote_server_ip port
+- `cat filename | nc remote_server_ip port`
+- `echo filename | nc remote_server_ip port`
 - `ssh -i privatekey username@remote port`
 - `openssl s_client -connect localhost:30001` (*for TLS or SSH encryption*)
 - `eval "$(ssh-agent -s)" `
-- `chmod 
-	- `u+r, go-w, a+x, 644, 755 dir, 
-	- `-r 600 dir, 777, +s, +t dir 
+- `chmod `
+	- `u+r, go-w, a+x, 644, 755 dir`, 
+	- `-r 600 dir, 777, +s, +t dir` 
 	- `[chmod -rwx file]`
 	- `[chmod u+r,g+w,o-x file]`
 - `nmap -sV host -p port/s`
