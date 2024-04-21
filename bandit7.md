@@ -1,3 +1,5 @@
+# Bandit 7
+
 In this level, we need to find the password in the file `data.txt` next to the word `millionth`. 
 Since there are too many words in data.txt, we have to use the command `grep` to find
 the pattern/word we want and filter that from everything else.
