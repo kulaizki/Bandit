@@ -56,7 +56,7 @@ bandit12@bandit:/tmp/123$ cat data.txt
 ```
 
 First, since it's a hexdump we used `xxd -r` to `reverse` the hexdump or convert it to binary.
-We save the converted file into `crack1.txt` so we can easily decompress it further.
+We save the converted file into `compressed_data.txt` so we can easily decompress it further.
 ```bash
 bandit12@bandit:/tmp/123$ xxd -r data.txt compressed_data
 bandit12@bandit:/tmp/123$ ls
